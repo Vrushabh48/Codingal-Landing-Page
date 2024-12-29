@@ -4,7 +4,7 @@ const ToggleSection: React.FC = () => {
   const [activeSection, setActiveSection] = useState<"plus" | "prime">("plus");
 
   return (
-    <div className="p-6 pl-[200px] pr-[200px] bg-blue-50 rounded-xl mb-10">
+    <div className="p-6 lg:pl-[200px] lg:pr-[200px] bg-blue-50 rounded-xl mb-10">
       {/* Toggle Buttons */}
       <div className="flex justify-center space-x-4 mb-10 bg-white p-3">
         <button
@@ -36,7 +36,7 @@ const ToggleSection: React.FC = () => {
             <span className="underline decoration-yellow-500">Codingal Plus:</span> Top-rated coding education for your child
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-xl font-poppins">
-            <div className="p-4 bg-white rounded-lg">👩‍💻 <span className="underline decoration-yellow-500">Learn</span> together with 2-4 coding buddies</div>
+            <div className="p-6 bg-white rounded-lg">👩‍💻 <span className="underline decoration-yellow-500">Learn</span> together with 2-4 coding buddies</div>
             <div className="p-4 bg-white border rounded-lg">
               🧑‍🏫 <span className="underline decoration-yellow-500">Handpicked</span> coding instructor as per your need
             </div>
