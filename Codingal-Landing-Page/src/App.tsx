@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar'
 import { PricingSection } from './components/PricingSection'
 import { Section1 } from './components/Section1'
 import { StaffSection } from './components/StaffSection'
+import ToggleSection from './components/ToggleSection'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <StaffSection />
       <GuranteeSection />
       <PricingSection />
+      <ToggleSection />
     </div>
   )
 }
