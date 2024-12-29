@@ -3,6 +3,7 @@ import { BySection } from './components/BySection'
 import { CourseSection } from './components/CourseSection'
 import { GuranteeSection } from './components/GuranteeSection'
 import { Navbar } from './components/Navbar'
+import { PricingSection } from './components/PricingSection'
 import { Section1 } from './components/Section1'
 import { StaffSection } from './components/StaffSection'
 
@@ -16,6 +17,7 @@ function App() {
       <CourseSection />
       <StaffSection />
       <GuranteeSection />
+      <PricingSection />
     </div>
   )
 }

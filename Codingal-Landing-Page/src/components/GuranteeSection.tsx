@@ -18,7 +18,7 @@ export const GuranteeSection = () => {
             alt=""
           />
         </div>
-        <div className="col-span-2 justify-between flex flex-col font-poppins text-base">
+        <div className="col-span-2 justify-between flex flex-col font-poppins text-lg">
           <div className="mt-5 mb-5 ml-2">
             <p>At Codingal, we are passionate about customer satisfaction.</p>
           </div>
@@ -40,7 +40,7 @@ export const GuranteeSection = () => {
         </div>
       </div>
       <div className="flex justify-center">
-      <button className="mt-10 w-[300px] h-[50px] inline-block align-middle border rounded focus:outline-none font-700 px-6 lg:px-10 py-2 bg-[#ff5a43] text-white hover:bg-[#ff5943e5] active:bg-orange-800">
+      <button className="mt-10 w-[300px] h-[60px] inline-block align-middle border rounded focus:outline-none font-700 px-6 lg:px-10 py-2 bg-[#ff5a43] text-white hover:bg-[#ff5943e5] active:bg-orange-800">
             Try a Free Lesson
           </button>
       </div>
