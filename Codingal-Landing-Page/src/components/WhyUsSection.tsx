@@ -8,7 +8,6 @@ export const WhyUsSection = () => {
         </h1>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 text-center lg:text-left text-gray-600 lg:max-w-4xl lg:mx-auto font-poppins mt-12">
-        {/* Image Section */}
         <div>
           <div className="inline-block max-w-full overflow-hidden relative box-border m-0 ml-10 mt-12">
             <div className="box-border block max-w-full">
@@ -35,7 +34,6 @@ export const WhyUsSection = () => {
           </div>
         </div>
 
-        {/* Text Section */}
         <div className="flex flex-col justify-center text-center lg:text-left ml-10 text-gray-800">
           <div className="py-4 text-2xl font-semibold lg:text-3xl">
             Develop key skills
@@ -57,7 +55,6 @@ export const WhyUsSection = () => {
           Children need to learn coding and develop digital skills if they want to be successful in the technology-driven job market of the future.
           </p>
         </div>
-        {/* Image Section */}
         <div>
           <div className="inline-block max-w-full overflow-hidden relative box-border m-0 ml-10 mt-12">
             <div className="box-border block max-w-full">
@@ -86,7 +83,6 @@ export const WhyUsSection = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 text-center lg:text-left text-gray-600 lg:max-w-4xl lg:mx-auto font-poppins mt-12">
-        {/* Image Section */}
         <div>
           <div className="inline-block max-w-full overflow-hidden relative box-border m-0 ml-10 mt-12">
             <div className="box-border block max-w-full">
@@ -112,8 +108,6 @@ export const WhyUsSection = () => {
             />
           </div>
         </div>
-
-        {/* Text Section */}
         <div className="flex flex-col justify-center text-center lg:text-left ml-10 text-gray-800">
           <div className="py-4 text-2xl font-semibold lg:text-3xl">
           Learn through coding

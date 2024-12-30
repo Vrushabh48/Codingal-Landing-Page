@@ -2,7 +2,6 @@
 const LearningDashboardSection = () => {
   return (
     <section className="font-poppins flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto py-12 px-6">
-      {/* Left Side - Image */}
       <div className="flex-1 mb-6 lg:mb-0 lg:mr-8">
         <div className="relative w-[500px] h-64 lg:h-72 bg-purple-100 rounded-lg overflow-hidden shadow-lg">
           <img
@@ -12,8 +11,7 @@ const LearningDashboardSection = () => {
           />
         </div>
       </div>
-
-      {/* Right Side - Text and Features */}
+      
       <div className="flex-1">
         <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">
           Intuitive learning dashboard for kids and parents
