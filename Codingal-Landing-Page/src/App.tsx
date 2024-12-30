@@ -5,6 +5,7 @@ import { CourseSection } from './components/CourseSection'
 import { GuranteeSection } from './components/GuranteeSection'
 import { Navbar } from './components/Navbar'
 import { PricingSection } from './components/PricingSection'
+import { ProjectSection } from './components/ProjectSection'
 import { Section1 } from './components/Section1'
 import { StaffSection } from './components/StaffSection'
 import ToggleSection from './components/ToggleSection'
@@ -24,6 +25,7 @@ function App() {
       <ToggleSection />
       <Certification />
       <WhyUsSection />
+      <ProjectSection />
     </div>
   )
 }
