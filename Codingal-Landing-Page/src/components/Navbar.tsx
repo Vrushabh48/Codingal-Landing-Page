@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <nav className="sticky top-0 flex h-16 z-30 shadow bg-white">
+    <nav className="sticky top-0 flex h-16 z-30 shadow bg-white font-poppins">
       <div className="lg:hidden mt-[12px] ml-6 w-full">
         <div>
           <img

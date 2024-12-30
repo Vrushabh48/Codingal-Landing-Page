@@ -11,6 +11,7 @@ import { PricingSection } from './components/PricingSection'
 import { ProjectSection } from './components/ProjectSection'
 import { Section1 } from './components/Section1'
 import { StaffSection } from './components/StaffSection'
+import StickyChatButton from './components/StickyChat'
 import ToggleSection from './components/ToggleSection'
 import { WhyUsSection } from './components/WhyUsSection'
 
@@ -32,6 +33,7 @@ function App() {
       <LearningDashboardSection />
       <NewsSection />
       <Footer />
+      <StickyChatButton />
     </div>
   )
 }
