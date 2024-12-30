@@ -5,6 +5,7 @@ import { CourseSection } from './components/CourseSection'
 import { GuranteeSection } from './components/GuranteeSection'
 import LearningDashboardSection from './components/LearningDashboardSection'
 import { Navbar } from './components/Navbar'
+import NewsSection from './components/NewsSection'
 import { PricingSection } from './components/PricingSection'
 import { ProjectSection } from './components/ProjectSection'
 import { Section1 } from './components/Section1'
@@ -28,6 +29,7 @@ function App() {
       <WhyUsSection />
       <ProjectSection />
       <LearningDashboardSection />
+      <NewsSection />
     </div>
   )
 }
