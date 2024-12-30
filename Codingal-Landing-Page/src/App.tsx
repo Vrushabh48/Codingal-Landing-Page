@@ -3,6 +3,7 @@ import { BySection } from './components/BySection'
 import { Certification } from './components/Certification'
 import { CourseSection } from './components/CourseSection'
 import { GuranteeSection } from './components/GuranteeSection'
+import LearningDashboardSection from './components/LearningDashboardSection'
 import { Navbar } from './components/Navbar'
 import { PricingSection } from './components/PricingSection'
 import { ProjectSection } from './components/ProjectSection'
@@ -26,6 +27,7 @@ function App() {
       <Certification />
       <WhyUsSection />
       <ProjectSection />
+      <LearningDashboardSection />
     </div>
   )
 }
