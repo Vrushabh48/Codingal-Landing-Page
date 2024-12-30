@@ -2,6 +2,7 @@ import './App.css'
 import { BySection } from './components/BySection'
 import { Certification } from './components/Certification'
 import { CourseSection } from './components/CourseSection'
+import Footer from './components/Footer'
 import { GuranteeSection } from './components/GuranteeSection'
 import LearningDashboardSection from './components/LearningDashboardSection'
 import { Navbar } from './components/Navbar'
@@ -30,6 +31,7 @@ function App() {
       <ProjectSection />
       <LearningDashboardSection />
       <NewsSection />
+      <Footer />
     </div>
   )
 }
